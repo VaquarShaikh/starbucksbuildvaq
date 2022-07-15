@@ -1,0 +1,18 @@
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+}
+
+@media (max-width: 1024px) {
+    .loader{
+        padding-top: 300px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .loader{
+        padding-top: 101px;
+    }
+  }
